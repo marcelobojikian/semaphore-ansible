@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# source files/env/default
+
+echo PWD : $(pwd)
+echo VARS: $@
+
+echo cp library /etc/ansible
+echo cp files/security /var/opt/ansible #--chown=semaphore:root
