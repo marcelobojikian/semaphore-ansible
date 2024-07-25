@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-FOLDER=/opt/ansible
+FOLDER=.
 VAULT_FILE=/var/security/ansible/vault.key
 
 echo Encrypt proxmox folder
