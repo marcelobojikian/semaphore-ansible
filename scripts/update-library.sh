@@ -4,4 +4,4 @@
 cp -r library/* /etc/ansible
 
 # Copy security files used by ansible
-cp -r /var/security/ansible/* /var/opt/ansible
+cp -r /var/security/ansible /var/opt
