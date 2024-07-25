@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-# source files/env/default
+# Copies library used in all ansible projects
+cp -r library/* /etc/ansible
 
-echo PWD : $(pwd)
-echo VARS: $@
-
-cp -r library /etc/ansible
-echo cp files/security /var/opt/ansible #--chown=semaphore:root
+# Copy security files used by ansible
+cp -r /var/security/ansible/* /var/opt/ansible
